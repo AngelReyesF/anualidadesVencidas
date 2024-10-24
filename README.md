@@ -125,12 +125,9 @@ tasa_actual <- function(VA, A, n) {
   i <- uniroot(func, c(lower, upper))$root
   return(i)
 }
-# Ejemplo
 
+# Ejemplo para tasa de interés futura
 ```
 source("tasa_actual = i(10000, 1000, 10)")
 ```
 
-
-# Ejemplo para tasa de interés futura
-tasa_futuro(15000, 1000, 10)
