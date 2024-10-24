@@ -64,6 +64,8 @@ tasa_futuro <- function(FV, A, n) {
   i <- uniroot(func, c(lower, upper))$root
   return(i)
 }
+# Ejemplo
+tasa_futuro(15000, 1000, 10)
 
 # 5. Valor actual (VA) conociendo la anualidad (A), tasa de interés (i) y número de pagos (n)
 valor_actual = function(PMT, i, n) {
