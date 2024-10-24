@@ -12,7 +12,7 @@ valor_futuro = function(PMT, i, n) {
 
 # Ejemplo
 ```
-valor_futuro = VF(A=1000, i=0.05, n=10)
+VF = valor_futuro(A=1000, i=0.05, n=10)
 ```
 
 
@@ -24,7 +24,7 @@ anualidad_futuro = function(FV, i, n) {
 
 # Ejemplo
 ```
-anualidad_futuro = A(15000, 0.05, 10)
+A = anualidad_futuro(15000, 0.05, 10)
 ```
 
 
@@ -36,7 +36,7 @@ numero_pagos_futuro = function(FV, A, i) {
 
 # Ejemplo
 ```
-numero_pagos_futuro = n(15000, 1000, 0.05)
+n = numero_pagos_futuro(15000, 1000, 0.05)
 ```
 
 
@@ -65,7 +65,9 @@ tasa_futuro <- function(FV, A, n) {
   return(i)
 }
 # Ejemplo
-tasa_futuro(15000, 1000, 10)
+```
+i = tasa_futuro(15000, 1000, 10)
+```
 
 # 5. Valor actual (VA) conociendo la anualidad (A), tasa de interés (i) y número de pagos (n)
 valor_actual = function(PMT, i, n) {
@@ -75,7 +77,7 @@ valor_actual = function(PMT, i, n) {
 
 # Ejemplo
 ```
-valor_actual = VA(1000, 0.05, 10)
+VA = valor_actual(1000, 0.05, 10)
 ```
 
 
@@ -87,7 +89,7 @@ anualidad_actual = function(PV, i, n) {
 
 # Ejemplo
 ```
-anualidad_actual = A(10000, 0.05, 10)
+A = anualidad_actual(10000, 0.05, 10)
 ```
 
 
@@ -99,7 +101,7 @@ numero_pagos_actual = function(PV, A, i) {
 
 # Ejemplo
 ```
-numero_pagos_actual = n(10000, 1000, 0.05)
+n = numero_pagos_actual(10000, 1000, 0.05)
 ```
 
 
@@ -130,6 +132,6 @@ tasa_actual <- function(VA, A, n) {
 
 # Ejemplo para tasa de interés futura
 ```
-tasa_actual = i(10000, 1000, 10)
+i = tasa_actual(10000, 1000, 10)
 ```
 
