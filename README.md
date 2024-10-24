@@ -12,7 +12,7 @@ valor_futuro = function(PMT, i, n) {
 
 # Ejemplo
 ```
-source("valor_futuro = VF(1000, 0.05, 10)")
+source("valor_futuro = VF(A=1000, i=0.05, n=10)")
 ```
 
 
