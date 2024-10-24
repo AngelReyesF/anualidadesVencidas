@@ -1,5 +1,9 @@
 # Anualidades Vencidas
 
+```
+source("https://raw.githubusercontent.com/AngelReyesF/MatematicasFinancieras/refs/heads/main/FormulasInteresSimple.R")
+```
+
 # 1. Valor Futuro (FV) conociendo la anualidad (A), tasa de interés (i) y número de pagos (n)
 valor_futuro = function(PMT, i, n) {
   FV = A*(((1+i)^n -1)/i)
