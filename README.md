@@ -1,7 +1,7 @@
 # Anualidades Vencidas
 
 ```
-source("https://raw.githubusercontent.com/AngelReyesF/MatematicasFinancieras/refs/heads/main/FormulasInteresSimple.R")
+source("https://raw.githubusercontent.com/AngelReyesF/anualidadesVencidas/refs/heads/main/anualidadesVencidas.R")
 ```
 
 # 1. Valor Futuro (FV) conociendo la anualidad (A), tasa de interés (i) y número de pagos (n)
